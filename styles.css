@@ -1,0 +1,78 @@
+div{
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: powderblue;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i{
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li a{
+    color: white;
+
+}
+
+.seccion-1{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+section{
+    display: block;
+}
+p{
+    justify-content: center;
+}
+.seccion-2 img{
+    width: 100%;
+}
+footer{
+    clear: both;
+    background-color: darkgoldenrod;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+footer a{
+    text-decoration: none;
+}
+
+/*MENU */
+#check {
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pionter;
+    display: none;
+}
